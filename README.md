@@ -23,7 +23,6 @@ SimpleRouter
 4. 空hash调用controller.index
 
 ##window.router
-----
 ###router.rules
 是一系列action和处理函数为键值对的对象。处理函数可以为函数也可以是字符串，如果是字符串，router将到controller里面去查找同名的函数。
 
@@ -41,7 +40,6 @@ SimpleRouter
 当前action的处理函数
 
 ##window.request
-----
 ###request.hash
 完整的hash字符串（删除了#!）
 ###request.action
@@ -52,7 +50,6 @@ SimpleRouter
 类似于http get请求的get数组
 
 ##window.controller
-----
 
 ###controller.index
 根action
