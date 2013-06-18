@@ -40,7 +40,13 @@ SimpleRouter
 当前action的处理函数
 
 ##window.controller
-
+###action的定义
+	controller.news = function(category, page){
+		// 若这样访问： #!news/sport/2:limit=10:fav=0
+		console.log(category); //"sport"
+		console.log(page); //"2"
+		console.log(request.querys); //Object {limit: "10", fav: "0"} 
+	}
 ###controller.index
 根action
 ###controller.noFound
