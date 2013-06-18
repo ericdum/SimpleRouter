@@ -39,16 +39,6 @@ SimpleRouter
 ###router.action
 当前action的处理函数
 
-##window.request
-###request.hash
-完整的hash字符串（删除了#!）
-###request.action
-当前的action名称，如果不存在，则为index
-###request.params
-当前请求的参数列表（被依次传入action）
-###request.querys
-类似于http get请求的get数组
-
 ##window.controller
 
 ###controller.index
@@ -59,3 +49,13 @@ SimpleRouter
 调用任何action之前调用
 ###controller.afterFilter
 调用任何action之后调用
+
+##window.request
+###request.hash
+完整的hash字符串（删除了#!）
+###request.action
+当前的action名称，如果不存在，则为index
+###request.params
+当前请求的参数列表（被依次传入action）
+###request.querys
+类似于http get请求的get数组
