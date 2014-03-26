@@ -2,7 +2,7 @@
  * Simple Router
  *
  * Copyright 2013, Eric Dum 代立晨
- * http://niuble.com
+ * http://mujiang.info/
  *
  * Free to use and abuse under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
