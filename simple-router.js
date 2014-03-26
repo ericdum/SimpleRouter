@@ -28,6 +28,7 @@
  *
  */
 (function(){
+    if( window.router || window.request || window.controller ) return;
 
     var controller = {
         index: function(){},
